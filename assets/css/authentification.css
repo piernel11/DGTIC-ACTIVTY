@@ -1,0 +1,84 @@
+
+.longinbox{
+    width: 390px;
+    height: 520px;
+    background: #fff;
+    border-radius: 10px;
+    border: #00459e solid 1px;
+    box-shadow: 0px 3px 1px -2px #00459e,
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0px rgba(0, 0, 0, 0.12) ;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: calc(50% - 50px);
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.longinbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+#back-bubmit{
+    background-color: #00459e;
+}
+
+.alert-auth{
+    width: 390px;
+    height: 40px;
+    background-color: rgba(255, 20, 20,0.3);
+    border:  1px solid #00459e;
+    border-radius: 10px;
+}
+.alert-position{
+    display: flex;
+    justify-content: center;
+}
+
+/* .longinbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.longinbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    height: 40px;
+}
+
+.longinbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0b0844;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.longinbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #1b1672;
+    color:#fff;
+} */
