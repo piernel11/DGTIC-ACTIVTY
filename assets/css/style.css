@@ -231,19 +231,14 @@ color: #00459e;
 
 .card-item{
   display: flex;
-  align-items: center;
   height: 35px;
+  width: 100%;
   margin-bottom: 5px;
   padding-top: 5px;
-/*   border-bottom: 1px solid #BDBDBD; */
 }
 
 .item1{
-  width: 20%;/* 
-  background-color: #00459e11;
-  text-align: center;
-  border: 1px solid #00459e6b; */
-  border-radius: 5px;
+  width: 20%;
 }
 .item1 span{
   font-weight: bold;
@@ -358,7 +353,6 @@ color: #00459e;
   .card-modal{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     border: 1px solid #00459e34; 
     padding-left: 20px;
   }
@@ -445,13 +439,10 @@ color: #00459e;
 }
 
 #SubActivityCard{
+  height: 70px;
   width: 390px;
 }
 
-
-#TaskCard{
-  width: 390px;
-}
 
 .Box{
   display: flex;
@@ -809,4 +800,62 @@ border: 1px solid #000000;
 .password-error{
   color: red;
   font-size: 16px;
+}
+
+.foot-list{
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 100%;
+  background-color: rosybrown;
+}
+.box-fooA{
+  height: 10%;
+  width: 100%;
+}
+.dtName{
+  width: 50%;
+}
+.anpliation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.box-fooB{
+  display: flex;
+  height: 75%;
+  width: 100%;
+  background-color: seagreen;
+}
+.box-fooC{
+  height: 15%;
+  width: 100%;
+  background-color: salmon;
+}
+
+
+/*  ==================================*/
+
+#TaskCard{
+  width: 400px;
+}
+
+#taskTitle{
+  width: 60%;
+}
+#taskAction{
+  width: 40%;
+}
+.orderItemTaskTable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.actionBoxA{
+  display: flex;
+}
+#tdTaskTable{
+  height: 70px;
 }
