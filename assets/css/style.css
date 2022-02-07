@@ -725,7 +725,6 @@ height: 80%;
 }
 
 .head-print-list{
-  
   display: flex;
   height: 55%;
   width: 100%;
@@ -750,6 +749,7 @@ height: 80%;
 .boxB-head{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 100%;
   width: 50%;
