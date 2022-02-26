@@ -960,3 +960,18 @@ border: 1px solid #000000;
     transform: rotate(360deg);
   }
 }
+
+.createUserAdmin{
+  width: 45%;
+}
+.adminConatiner{
+  display: flex;
+  justify-content: space-around;
+}
+.createProfilAdmin{
+  width: 45%;
+}
+
+.divListPersonAdmin{
+  width: 70%;
+}
